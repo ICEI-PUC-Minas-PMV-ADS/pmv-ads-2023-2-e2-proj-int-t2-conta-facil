@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Conta Fácil
 
-`CURSO`
+`Analise e Desenvolvimeto de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`Segundo semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Oferecer uma plataforma que permite o registro de despesas, categorias personalizadas e geração de relatórios, o sistema visa capacitar os usuários a entenderem seus padrões de gastos, identificarem áreas de oportunidade para economia e, finalmente, alcançarem uma maior estabilidade financeira.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-
+* Anthony Gabriel Santana dos Santos
+* Bárbara de Sousa Martins
+* Diogo Victor Santos Silva
+* Érica Rodrigues Almeida Almarim
+* Matheus Oliveira Rosário
+* Nathan Teixeira Rizzatte
+  
 ## Orientador
 
-* Nome completo do professor 1
+* José Wilson da Costa 
 
 ## Instruções de utilização
 
