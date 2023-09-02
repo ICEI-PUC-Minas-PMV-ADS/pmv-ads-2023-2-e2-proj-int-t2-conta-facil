@@ -12,11 +12,6 @@ Além disso, a falta de acesso a ferramentas adequadas de controle e organizaç�
 
 A carência de educação financeira nas escolas agrava ainda mais a situação. A ausência de currículos que abordem tópicos como planejamento financeiro, investimentos e entendimento de taxas de juros deixa os jovens despreparados para enfrentar as complexidades do mundo financeiro adulto. A falta de conscientização sobre a importância do gerenciamento financeiro também é um obstáculo. Muitos subestimam o impacto positivo que uma boa administração financeira pode ter na realização de metas de vida e na redução do estresse relacionado a questões monetárias.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 Monitoramento Financeiro: Permitir que os usuários registrem e acompanhem suas despesas diárias para ter um controle mais efetivo de suas finanças.
@@ -35,17 +30,7 @@ A falta desse controle pode ocasionar endividamento, estresse, problemas familia
 
 Vale ressaltar, que a disponibilidade de tecnologias de pagamento eletrônico e aplicativos financeiros facilitou a realização das transações, mas também pode levar a gastos impulsivos e à falta de consciência e controle sobre onde o dinheiro está sendo gasto.
 
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
 Este projeto busca atender pessoas que procuram organizar melhor os seus gastos, e manter um registro sobre os mesmos, obtendo assim um controle maior da sua vida financeira. Quanto mais cedo uma pessoa aprende sobre educação financeira e se preocupa em investir melhor o seu dinheiro, mais retornos positivos ela recebe, pensando nisso o sistema a ser desenvolvido foi pensado para pessoas maiores de 13 anos que possuem algum tipo de renda e costumam fazer movimentações monetárias com frequência.
 
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
