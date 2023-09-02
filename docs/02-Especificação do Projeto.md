@@ -39,13 +39,13 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |**ID**|**Descrição**|**Prioridade**|
 | :-: | :-: | :-: |
-|RF-01|O site deverá ter um sistema Login, para que o usuário acesse o site.|Alta|
-|RF-02|O site deverá ter uma tela de cadastro de usuários.|Alta|
-|RF-03|O site deverá ter a função de visualização de saldo atual.|Alta|
-|RF-04|O site deverá ter um relatório de despesas.|Média|
-|RF-05|O site deverá ter um sistema de alerta para não exceder o limite do orçamento.|Baixa|
-|RF-06|O site deverá ter função de cadastro de despesas.|Alta|
-|RF-07|O site deverá disponibilizar uma função de memória de cálculo para reserva emergencial.|Média|
+|RF-01|O sistema  deverá ter um sistema Login, para que o usuário acesse o site.|Alta|
+|RF-02|O sistema  deverá ter uma tela de cadastro de usuários.|Alta|
+|RF-03|O sistema  deverá ter a função de visualização de saldo atual.|Alta|
+|RF-04|O sistema  deverá ter um relatório de despesas.|Média|
+|RF-05|O sistema  deverá ter um sistema de alerta para não exceder o limite do orçamento.|Baixa|
+|RF-06|O sistema  deverá ter função de cadastro de despesas.|Alta|
+|RF-07|O sistema  deverá disponibilizar uma função de memória de cálculo para reserva emergencial.|Média|
 
 ### Requisitos não Funcionais
 
@@ -53,10 +53,10 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 
 |**ID**|**Descrição**|**Prioridade**|
 | :-: | :-: | :-: |
-|RNF-01|O site deverá ter usabilidade adequada para os usuários.|Alta|
-|RNF-02|O site deverá ser responsivo para diferentes plataformas de acesso como, celulares, tablets, notebooks e computadores.|Alta|
-|RNF-03|O site deverá fornecer segurança e confiabilidade aos usuários que irão acessar|Alta|
-|RNF-04|O site deverá ter um bom suporte ao usuário.|Média|
+|RNF-01|O sistema  deverá ter usabilidade adequada para os usuários.|Alta|
+|RNF-02|O sistema  deverá ser responsivo para diferentes plataformas de acesso como, celulares, tablets, notebooks e computadores.|Alta|
+|RNF-03|O sistema  deverá fornecer segurança e confiabilidade aos usuários que irão acessar|Alta|
+|RNF-04|O sistema  deverá ter um bom suporte ao usuário.|Média|
 
 ## Restrições
 
@@ -65,7 +65,7 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 |**ID**|**Descrição**|
 | :-: | :-: |
 |**RE-01**|O projeto completo deverá ser entregue até 06 de dezembro de 2023.|
-|**RE-02**|O aplicativo deve se restringir às tecnologias Web no Front-end e Back-end.|
+|**RE-02**|O sistema deve se restringir às tecnologias Web no Front-end e Back-end.|
 |**RE-03**|O repositório das entregas deverá ser feito no G*itHub classroom*|
 |**RE-04**|O projeto será sem fins lucrativos.|
 |**RE-05**|O projeto não irá armazenar nenhuma informação bancária do usuário.|
