@@ -14,11 +14,16 @@ A carência de educação financeira nas escolas agrava ainda mais a situação.
 
 ## Objetivos
 
-Monitoramento Financeiro: Permitir que os usuários registrem e acompanhem suas despesas diárias para ter um controle mais efetivo de suas finanças.
+O sistema de registro de gastos diários tem como objetivo auxiliar os usuários a tomar decisões financeiras mais informadas, promovendo o controle e a conscientização sobre seus hábitos de gastos.
 
-Análise de Gastos: Fornecer ferramentas para analisar os padrões de gastos ao longo do tempo, identificando áreas de despesa que podem ser reduzidas ou otimizadas.
+Em específico, podemos ressaltar:
 
-Planejamento Financeiro: Facilitar o planejamento financeiro de curto e longo prazo, auxiliando os usuários a atingir seus objetivos financeiros, como economizar para uma viagem ou comprar um item específico.
+ - Monitoramento Financeiro: Permitir que os usuários registrem e acompanhem suas despesas diárias para ter um controle mais efetivo de suas finanças.
+
+ - Análise de Gastos: Fornecer ferramentas para analisar os padrões de gastos ao longo do tempo, identificando áreas de despesa que podem ser reduzidas ou otimizadas.
+
+ - Planejamento Financeiro: Facilitar o planejamento financeiro de curto e longo prazo, auxiliando os usuários a atingir seus objetivos financeiros, como economizar para uma viagem ou comprar um item específico.
+
 
 ## Justificativa
 
