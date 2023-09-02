@@ -24,12 +24,16 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram
+registradas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Fábio Campos  | Estabelecer a capacidade de rastrear meus desembolsos semanais, com o propósito claro de criar relatórios detalhados           | Preservar e fortalecer meu controle sobre as finanças, garantindo que minha capacidade de economizar seja preservada.               |
+|Fábio Campos      | Ter a capacidade de acessar meu saldo constantemente atualizado, sempre que necessário             | Ter uma visão precisa do meu patrimônio financeiro, permitindo-me saber quando é apropriado conter meus gastos, visando uma gestão financeira prudente. |
+| Clara Lopes | Ter uma maneira eficaz e eficiente de recordar cada um dos meus gastos, eliminando a necessidade de dedicar tempo à recuperação de informações nos extratos bancários. | Aumentar a eficácia da minha gestão financeira, permitindo-me focar em outras atividades da minha vida. |
+| Ana Santos | Adquirir um método eficaz para acumular recursos financeiros. | Preparar para o momento em que eu precisar de dinheiro, usar com responsabilidade. |
+| Clara Lopes | Possuir a capacidade de determinar com precisão a quantia de recursos financeiros à guardar mensalmente em investimentos | Aproveitar as oportunidades que se apresentam e garantir que meu empreendimento prospere de maneira sustentável e promissora. |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
