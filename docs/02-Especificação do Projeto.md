@@ -6,19 +6,17 @@ Os detalhes levantados nesse processo foram consolidados na forma de personas e 
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+|<p>**Imagem** </p><p>**não consigo inserir**</p>|Fábio Campos|<p>40 anos </p><p>Ocupação: Engenheiro Cívil, é supervisor de obras em uma construtora.</p><p></p><p>Aplicativos: Instagram, whatsapp e linkedin</p><p></p><p></p><p></p>|
+| :- | - | :- |
+|<p>Motivações: Terminar o pagamento do financiamento da casa própria;</p><p>Comprar um carro zero; ser efetivado a gerente de obra;</p><p>Viajar para europa com a esposa </p><p></p><p></p>|<p>Frustrações:</p><p>Parcelas atrasadas do financiamento da casa;</p><p>Não conseguir ter controle nos gastos da família;</p><p></p>|<p>Hobbies/História:</p><p>Pelada e churrasco aos fins de semana </p><p>Assistir futebol</p><p></p><p>Fábio Campos é casado com Renata há 8 anos e tem um filho de 3 anos, fizeram o financiamento de uma casa já no início do casamento, até a chegada do filho tudo estava indo bem com as finanças, porém, com nove meses de vida descobriram que a criança tinha uma doença no coração, os custos com internação, plano de saúde, medicamento atrapalharam completamente os planos de Fábio. Hoje, ele tenta controlar as contas, após a cura do filho.</p><p></p>|
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+|<p>**Imagem** </p><p>**não consigo inserir** </p>|<p>Clara Lopes</p><p></p>|<p>26 anos</p><p>Ocupação: Psicóloga, tem um consultório particular .</p><p></p><p>Aplicativos: Instagram, whatsapp, twitter e linkedin</p><p></p>|
+| :- | - | :- |
+|<p>Motivações: Sair da casa dos pais e morar sozinha, fazer uma viagem para o Peru no ano que vem e fazer uma especialização na área em que atua.  </p><p></p>|<p>Frustrações:</p><p>Gastos com o consultório particular;</p><p>Dificuldade em ter mais pacientes;</p>|<p>Hobbies/História:</p><p>Sair com as amigas </p><p>Ir em festivais de música </p><p>Ficar em casa vendo filmes e séries </p><p></p><p>Clara Lopes é uma jovem que se formou há poucos anos em Psicologia e busca por sua independência financeira. Há um ano abriu o próprio consultório, porém tem sido difícil administrar a agenda, as finanças e o lazer.  </p><p></p>|
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+|<p>**Imagem** </p><p>**não consigo inserir** </p>|Ana Santos|<p>48 anos </p><p>Ocupação: Empreendedora, confeiteira. </p><p></p><p>Aplicativos: Instagram, whatsapp e facebook</p><p></p>|
+| :- | - | :- |
+|<p>Motivações: Conseguir expandir seu pequeno empreendimento de fazer bolos e doces para festas, finalizar o pagamento da casa e ajudar o filho no pagamento das despesas da faculdade em outra cidade.</p><p></p>|<p>Frustrações:</p><p>Gastos com as despesas do negócio e da casa;</p><p>A instabilidade da procura por seu trabalho;</p><p>Ter sido demitida, não ter conseguido emprego com a mesma remuneração e benefícios </p><p></p>|<p>Hobbies/História: Sair com as amigas para tomar uma cervejinha;</p><p>Sair com o namorado;</p><p>Cozinhar;</p><p>Ana Santos é mãe solteira e há 2 anos foi demitida do banco, onde trabalhou por 19 anos. Há um ano tem focado e investido no seu próprio buffet de bolos e doces. Conseguiu quitar grande parte do apartamento que comprou, agora lida com o desafio do filho único morar em outra cidade e novos gastos surgiram. Como sempre foi organizada financeiramente, ela quer retomar as rédeas das contas. </p>|
 
 ## Histórias de Usuários
 
@@ -33,73 +31,55 @@ registradas as seguintes histórias de usuários:
 | Ana Santos | Adquirir um método eficaz para acumular recursos financeiros. | Preparar para o momento em que eu precisar de dinheiro, usar com responsabilidade. |
 | Clara Lopes | Possuir a capacidade de determinar com precisão a quantia de recursos financeiros à guardar mensalmente em investimentos | Aproveitar as oportunidades que se apresentam e garantir que meu empreendimento prospere de maneira sustentável e promissora. |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|**ID**|**Descrição**|**Prioridade**|
+| :-: | :-: | :-: |
+|RF-01|O site deverá ter um sistema Login, para que o usuário acesse o site.|Alta|
+|RF-02|O site deverá ter uma tela de cadastro de usuários.|Alta|
+|RF-03|O site deverá ter a função de visualização de saldo atual.|Alta|
+|RF-04|O site deverá ter um relatório de despesas.|Média|
+|RF-05|O site deverá ter um sistema de alerta para não exceder o limite do orçamento.|Baixa|
+|RF-06|O site deverá ter função de cadastro de despesas.|Alta|
+|RF-07|O site deverá disponibilizar uma função de memória de cálculo para reserva emergencial.|Média|
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|**ID**|**Descrição**|**Prioridade**|
+| :-: | :-: | :-: |
+|RNF-01|O site deverá ter usabilidade adequada para os usuários.|Alta|
+|RNF-02|O site deverá ser responsivo para diferentes plataformas de acesso como, celulares, tablets, notebooks e computadores.|Alta|
+|RNF-03|O site deverá fornecer segurança e confiabilidade aos usuários que irão acessar|Alta|
+|RNF-04|O site deverá ter um bom suporte ao usuário.|Média|
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|**ID**|**Descrição**|
+| :-: | :-: |
+|**RE-01**|O projeto completo deverá ser entregue até 06 de dezembro de 2023.|
+|**RE-02**|O aplicativo deve se restringir às tecnologias Web no Front-end e Back-end.|
+|**RE-03**|O repositório das entregas deverá ser feito no G*itHub classroom*|
+|**RE-04**|O projeto será sem fins lucrativos.|
+|**RE-05**|O projeto não irá armazenar nenhuma informação bancária do usuário.|
+|**RE-06**|O projeto não terá interação com sistema bancário.|
+|**RE-07**|O projeto não terá vínculo com sistemas de investimentos.|
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+O diagrama de casos de uso inclui:
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+- O “usuário” é o ator principal.
+- "Login": Permite ao usuário fazer login no site.
+- "Cadastro": Permite ao usuário criar uma nova conta no site.
+- "Visualização Saldo": Permite ao usuário visualizar o saldo atual.
+- "Relatório Despesas": Permite ao usuário gerar um relatório de despesas.
+- "Alerta de Orçamento": Garante que o usuário seja alertado se estiver prestes a exceder o limite do orçamento.
+- "Cadastro Despesas": Permite ao usuário cadastrar suas despesas.
