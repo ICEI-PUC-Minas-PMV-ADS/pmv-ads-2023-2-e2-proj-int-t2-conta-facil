@@ -36,17 +36,18 @@ Pronto/ Finalizado: nesta lista são colocadas as tarefas que passaram pelos tes
 
 O quadro trello do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através do [Trello](https://trello.com/b/uprlhYZV/rem%C3%A9dio-solid%C3%A1rio) e é apresentado, no estado atual na figura abaixo.
 
-![Backlog](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t9-time3-projremediosolidario/assets/62729047/d1c9a406-c4a0-417e-8870-b2752ba0b6c6)
-
 ### Divisão de Papéis
 
-A equipe está organizada da seguinte maneira:
-
-- Scrum Master: Matheus Rosário
-
-- Product Owner: Nathan Teixeira
-
-- Equipe Desenvolvimento: Erica Rodrigues, Barbara Martins, Diogo Silva, Anthony Gabriel
+Personas - Érica
+Histórias de usuários - Diogo
+Requisitos Funcionais - Todos
+Requisitos não funcionais - Todos
+Restrições - Todos
+Diagramas de Casos de Uso - Nathan 
+Back Log - Anthony
+Plano de Sprints do projeto - Matheus
+Slide de apresentaçao -  Anthony
+Video - Barbába
 
 ### Processo
 
