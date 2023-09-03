@@ -39,20 +39,31 @@ O quadro trello do grupo desenvolvido na ferramenta de gerenciamento de projetos
 ### Divisão de Papéis
 
 Personas - Érica
-Histórias de usuários - Diogo
-Requisitos Funcionais - Todos
-Requisitos não funcionais - Todos
-Restrições - Todos
-Diagramas de Casos de Uso - Nathan 
-Back Log - Anthony
-Plano de Sprints do projeto - Matheus
-Slide de apresentaçao -  Anthony
-Video - Barbába
+Histórias de usuários - Diogo <br>
+
+Requisitos Funcionais - Todos <br>
+
+Requisitos não funcionais - Todos  <br>
+
+Restrições - Todos <br>
+
+Diagramas de Casos de Uso - Nathan  <br>
+
+Back Log - Anthony <br>
+
+Plano de Sprints do projeto - Matheus <br>
+
+Slide de apresentaçao -  Anthony <br>
+
+Video - Barbába <br>
 
 ### Processo
 
 Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- ![Backlog](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/62729047/6935120e-40e5-417f-89c8-cf6cce5c931b)
+
+
+![xdws](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/62729047/f6410b9a-efba-4505-8699-53fd535f839e)
+
 
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
