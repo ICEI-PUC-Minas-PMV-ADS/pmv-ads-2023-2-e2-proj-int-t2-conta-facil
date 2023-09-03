@@ -43,7 +43,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-02|O sistema  deverá ter uma tela de cadastro de usuários.|Alta|
 |RF-03|O sistema  deverá ter a função de visualização de saldo atual.|Alta|
 |RF-04|O sistema  deverá ter um relatório de despesas.|Média|
-|RF-05|O sistema  deverá ter um sistema de alerta para não exceder o limite do orçamento.|Baixa|
+|RF-05|O projeto  deverá ter um sistema de alerta para não exceder o limite do orçamento.|Baixa|
 |RF-06|O sistema  deverá ter função de cadastro de despesas.|Alta|
 |RF-07|O sistema  deverá disponibilizar uma função de memória de cálculo para reserva emergencial.|Média|
 
