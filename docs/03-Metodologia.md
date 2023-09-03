@@ -8,8 +8,12 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
-[Trello](https://trello.com), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+
+|**Ambiente**|**Plataforma** |**Link de acesso**|
+| :- | :- | :- |
+|Repositório de código fonte|Git Hub|https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil|
+|Documentos do projeto|Git Hub|(https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil|)
+|Gerenciamento do Projeto|Trello|https://trello.com/b/PMakNtFZ/conta-f%C3%A1cil|
 
 
 ## Gerenciamento de Projeto
