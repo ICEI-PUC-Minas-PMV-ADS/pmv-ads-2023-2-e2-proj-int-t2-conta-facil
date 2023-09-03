@@ -8,7 +8,7 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
+[Trello](https://trello.com), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório.
 
 
