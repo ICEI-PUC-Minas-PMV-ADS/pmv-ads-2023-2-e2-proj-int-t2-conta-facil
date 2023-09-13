@@ -84,4 +84,5 @@ O diagrama de casos de uso inclui:
 - "Alerta de Orçamento": Garante que o usuário seja alertado se estiver prestes a exceder o limite do orçamento.
 - "Cadastro Despesas": Permite ao usuário cadastrar suas despesas.
 
-  ![diagrama](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/d31da9bd-e0f5-4247-8668-7f3ef3078399)
+ ![Diagrama_user_case](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/129685114/c3145f55-dbf1-4367-90a8-0fb3be7185c2)
+
