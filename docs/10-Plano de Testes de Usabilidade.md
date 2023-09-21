@@ -1,22 +1,22 @@
 
 
-**Objetivo do Teste de Usabilidade:** 
+# **Objetivo do Teste de Usabilidade:** 
 
 O objetivo do teste de usabilidade é avaliar a facilidade de uso e a experiência do usuário no software de Conta Fácil. Queremos identificar problemas de usabilidade, coletar feedback dos usuários e garantir que o software atenda às necessidades dos usuários de forma eficaz.
 
-**Equipe de Teste:**
+## **Equipe de Teste:**
 
 - Coordenador de Teste
 - Usuários representativos (3 a 5 usuários, com diferentes níveis de experiência em finanças)
 
-**Recursos Necessários:**
+## **Recursos Necessários:**
 
 - Local de teste com computadores e acesso à Internet
 - Protótipo funcional do software de Conta Fácil
 - Questionário de satisfação do usuário
 - Gravador de tela e câmera (opcional)
 
-**Cenários de Teste:**
+## **Cenários de Teste:**
 
 **1. Registro de Conta:**
    1. Tarefa: Pedir ao usuário que crie uma nova conta no software.
@@ -42,14 +42,14 @@ O objetivo do teste de usabilidade é avaliar a facilidade de uso e a experiênc
    1. Tarefa: Pedir ao usuário que crie uma Reserva Emergencial.
    2. Objetivo: Avaliar a capacidade do usuário de criar a reserva emergencial
 
-**Métricas de Avaliação:**
+## **Métricas de Avaliação:**
 
 - Taxa de sucesso: Quantos usuários conseguem concluir com sucesso cada tarefa.
 - Tempo gasto em cada tarefa: Avalie o tempo necessário para concluir cada tarefa.
 - Erros e problemas encontrados: Registre qualquer problema de usabilidade encontrado pelos usuários.
 - Satisfação do usuário: Use o questionário de satisfação para coletar feedback sobre a experiência do usuário.
 
-**Procedimento do Teste:**
+## **Procedimento do Teste:**
 
 1. Apresentação inicial aos usuários, explicando o objetivo do teste e garantindo a confidencialidade dos dados.
 2. Apresentação do protótipo e instruções iniciais para as tarefas.
@@ -57,7 +57,7 @@ O objetivo do teste de usabilidade é avaliar a facilidade de uso e a experiênc
 4. Administração do questionário de satisfação do usuário.
 5. Análise dos resultados e identificação de áreas de melhoria.
 
-**Ações Pós-Teste:**
+## **Ações Pós-Teste:**
 
 - Consolidar os resultados e identificar os principais problemas de usabilidade.
 - Priorizar as correções e melhorias com base nos dados coletados.
