@@ -1,3 +1,5 @@
+
+
 **Objetivo do Teste de Usabilidade:** 
 
 O objetivo do teste de usabilidade é avaliar a facilidade de uso e a experiência do usuário no software de Conta Fácil. Queremos identificar problemas de usabilidade, coletar feedback dos usuários e garantir que o software atenda às necessidades dos usuários de forma eficaz.
@@ -19,18 +21,23 @@ O objetivo do teste de usabilidade é avaliar a facilidade de uso e a experiênc
 **1. Registro de Conta:**
    1. Tarefa: Pedir ao usuário que crie uma nova conta no software.
    2. Objetivo: Avaliar a facilidade de registro e a clareza das instruções.
+      
 **2. Adicionar Despesa:**
    1. Tarefa: Pedir ao usuário que adicione uma despesa recente ao software.
    2. Objetivo: Avaliar a facilidade de adicionar transações e a intuitividade da interface.
-**3. Criar Orçamento:**
+      
+**3. Criar Meta de Gastos:**
    1. Tarefa: Pedir ao usuário que crie um orçamento mensal.
    2. Objetivo: Avaliar a capacidade do usuário de configurar e gerenciar um orçamento.
+      
 **4. Visualizar Relatórios:**
    1. Tarefa: Pedir ao usuário que visualize um relatório de gastos mensais.
    2. Objetivo: Avaliar a capacidade de compreensão do relatório e a facilidade de navegação.
+      
 **5. Configurações de Conta:**
    1. Tarefa: Pedir ao usuário que atualize as informações de conta.
    2. Objetivo: Avaliar a facilidade de acesso e edição das configurações de conta.
+      
 **6. Reserva Emergencial:**
    1. Tarefa: Pedir ao usuário que crie uma Reserva Emergencial.
    2. Objetivo: Avaliar a capacidade do usuário de criar a reserva emergencial
