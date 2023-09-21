@@ -1,6 +1,6 @@
 
 
-# **Objetivo do Teste de Usabilidade:** 
+# **Teste de Usabilidade:** 
 
 O objetivo do teste de usabilidade é avaliar a facilidade de uso e a experiência do usuário no software de Conta Fácil. Queremos identificar problemas de usabilidade, coletar feedback dos usuários e garantir que o software atenda às necessidades dos usuários de forma eficaz.
 
@@ -63,3 +63,11 @@ O objetivo do teste de usabilidade é avaliar a facilidade de uso e a experiênc
 - Priorizar as correções e melhorias com base nos dados coletados.
 - Realizar testes adicionais após as correções, se necessário.
 - Iterar o processo de teste até que o software atinja um alto nível de usabilidade.
+
+## **Fomulários**
+
+Os formulários abaixo, deverão ser preenchidos para registrar os testes de Usabalidade.
+![Fomulário coleta dados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/f804aeeb-e11a-4046-a579-bf66dee17bd9)
+
+![satisfação usuário](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/7f49f8e3-0ed6-4cbb-9bab-fe524ea72a79)
+
