@@ -1,15 +1,58 @@
-# Plano de Testes de Usabilidade
+**Objetivo do Teste de Usabilidade:** 
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+O objetivo do teste de usabilidade é avaliar a facilidade de uso e a experiência do usuário no software de Conta Fácil. Queremos identificar problemas de usabilidade, coletar feedback dos usuários e garantir que o software atenda às necessidades dos usuários de forma eficaz.
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+**Equipe de Teste:**
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+- Coordenador de Teste
+- Usuários representativos (3 a 5 usuários, com diferentes níveis de experiência em finanças)
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
+**Recursos Necessários:**
 
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+- Local de teste com computadores e acesso à Internet
+- Protótipo funcional do software de Conta Fácil
+- Questionário de satisfação do usuário
+- Gravador de tela e câmera (opcional)
+
+**Cenários de Teste:**
+
+**1. Registro de Conta:**
+   1. Tarefa: Pedir ao usuário que crie uma nova conta no software.
+   2. Objetivo: Avaliar a facilidade de registro e a clareza das instruções.
+**2. Adicionar Despesa:**
+   1. Tarefa: Pedir ao usuário que adicione uma despesa recente ao software.
+   2. Objetivo: Avaliar a facilidade de adicionar transações e a intuitividade da interface.
+**3. Criar Orçamento:**
+   1. Tarefa: Pedir ao usuário que crie um orçamento mensal.
+   2. Objetivo: Avaliar a capacidade do usuário de configurar e gerenciar um orçamento.
+**4. Visualizar Relatórios:**
+   1. Tarefa: Pedir ao usuário que visualize um relatório de gastos mensais.
+   2. Objetivo: Avaliar a capacidade de compreensão do relatório e a facilidade de navegação.
+**5. Configurações de Conta:**
+   1. Tarefa: Pedir ao usuário que atualize as informações de conta.
+   2. Objetivo: Avaliar a facilidade de acesso e edição das configurações de conta.
+**6. Reserva Emergencial:**
+   1. Tarefa: Pedir ao usuário que crie uma Reserva Emergencial.
+   2. Objetivo: Avaliar a capacidade do usuário de criar a reserva emergencial
+
+**Métricas de Avaliação:**
+
+- Taxa de sucesso: Quantos usuários conseguem concluir com sucesso cada tarefa.
+- Tempo gasto em cada tarefa: Avalie o tempo necessário para concluir cada tarefa.
+- Erros e problemas encontrados: Registre qualquer problema de usabilidade encontrado pelos usuários.
+- Satisfação do usuário: Use o questionário de satisfação para coletar feedback sobre a experiência do usuário.
+
+**Procedimento do Teste:**
+
+1. Apresentação inicial aos usuários, explicando o objetivo do teste e garantindo a confidencialidade dos dados.
+1. Apresentação do protótipo e instruções iniciais para as tarefas.
+1. Observação e registro dos usuários enquanto realizam as tarefas, incluindo a coleta de métricas.
+1. Administração do questionário de satisfação do usuário.
+1. Análise dos resultados e identificação de áreas de melhoria.
+
+**Ações Pós-Teste:**
+
+- Consolidar os resultados e identificar os principais problemas de usabilidade.
+- Priorizar as correções e melhorias com base nos dados coletados.
+- Realizar testes adicionais após as correções, se necessário.
+- Iterar o processo de teste até que o software atinja um alto nível de usabilidade.
