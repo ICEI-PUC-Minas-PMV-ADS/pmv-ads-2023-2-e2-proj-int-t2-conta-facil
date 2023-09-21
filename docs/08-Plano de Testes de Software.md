@@ -1,31 +1,20 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+# Plano de Testes de Software
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+Abaixo segue os casos de teste.
 
-Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o(s) requisito(s) associado(s) a cada um deles está(ão) correto(s) - de acordo com o que foi definido na seção "2 - Especificação do Projeto". 
-
-Por exemplo:
- 
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
-| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
-|Critério de Êxito | - O cadastro foi realizado com sucesso. |
-|  	|  	|
-| Caso de Teste 	| CT-02 – Efetuar login	|
-|Requisito Associado | RF-00Y	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
-|Critério de Êxito | - O login foi realizado com sucesso. |
+|**Caso de Teste**|**CT- Login – Realizar Login no site**|
+| :-: | :- |
+|**Requisitos Associados**|<p>**RF-01 -** O site deverá ter um sistema Login, para que o usuário acesse o painel do usuário.</p><p></p><p>**RF-02 -** O sistema deverá ter uma tela de cadastro de usuários.</p>|
+|**Objetivo do Teste**|Verificar se após digitar o login e senha, o usuário será redirecionado para o painel do usuário.|
+|**Passos**|<p>1) Fazer o download da pasta contafacil\_ContaFacil [Git Hub.](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/blob/main/docs/08-Plano%20de%20Testes%20de%20Software.md)</p><p>2) Acessar a pasta e clicar em index\.html</p><p>3) Visualizar a página Home\.</p><p>4) Clicar em Login</p><p>5) Digitar o login <eve.holt@reqres.in> e senha cityslicka</p><p>6) Clicar em Entrar</p>|
+|**Critérios de Êxito**|<p>- Você deverá ser redirecionado a pagina painel de usuário</p><p>- Se for digitado um login e senha invalido deverá apresentar uma mensagem de erro.</p><p>- Se for digitado um e-mail invalido, o botão Entrar ficará indisponível</p><p>- Se for digitado uma senha menor de 6 caracteres, o botão Entrar ficará indisponível. </p>|
 
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+|**Caso de Teste**|**CT -  Inserir dados financeiros**|
+| :-: | :- |
+|**Requisitos Associados**|<p>RF-03 - O sistema deverá ter a função de visualização de saldo atual. </p><p>RF-06 - O sistema deverá ter função de cadastro de despesas.</p><p>RF-04 - O sistema deverá ter um relatório de despesas.</p><p>RF-07 - O sistema deverá disponibilizar uma função de memória de cálculo para reserva emergencial.	</p>
+|**Objetivo do Teste**|Verificar se as funcionalidades de inserção de dados financeiros, busca, filtro e edição estão funcionando conforme o esperado.|
+|**Passos**|<p>1) Efetue o login no sistema. </p><p>2) Colocar o nome do produto ou gasto realizado no campo de busca ou Filtrar por: data de pagamento</p><p>3) No campo de inserção, preencha o nome do produto ou descrição do gasto realizado, bem como o valor financeiro correspondente.</p><p>4) Verifique se há um botão para cadastrar a despesa ou inserir os dados financeiros.</p><p>5) Após a inserção, verifique se os dados financeiros inseridos pelo usuário aparecem corretamente na interface. </p><p>6) Utilize o campo de busca para inserir o nome do produto ou descrição do gasto realizado. Verifique se os resultados são filtrados corretamente. <p/><p>7)Utilize a opção "Filtrar por data de pagamento" para verificar se o sistema filtra os dados com base na data de pagamento especificada. <p/><p>8)Caso o nome do produto, descrição ou data de pagamento não sejam localizados, verifique se uma mensagem informativa, como "Transação não localizada", é exibida. <p/><p>9)Se os dados forem localizados, verifique se a imagem e outras informações relevantes estão sendo exibidas corretamente. <p/><p>10)Clique na opção "Editar valor financeiro" e verifique se a descrição e o valor inseridos podem ser atualizados ou editados. <p/><p>11)Clique na opção "Reserva Emergencial" e utilize a função de memória de cálculo para calcular uma reserva emergencial com base nos dados financeiros inseridos.<p/>
+|**Critérios de Êxito**|<p>* Os dados financeiros inseridos pelo usuário devem aparecer corretamente na interface após a inserção.</p><p>* Se não houver dados financeiros inseridos no sistema, uma mensagem informativa deve ser exibida, informando que nenhum dado foi encontrado. </p><p>* O filtro de busca deve mostrar o histórico de pagamentos e valores com base nas opções selecionadas, incluindo mês e ano. </p><p>* Os dados financeiros inseridos devem ter um botão de edição que permite a atualização das informações.</p><p>* Ao editar os dados, o sistema deve exibir uma confirmação de que os dados financeiros foram atualizados com sucesso.</p><p>*A função de memória de cálculo para reserva emergencial deve calcular corretamente com base nos dados financeiros inseridos.</p>
