@@ -45,10 +45,10 @@ O objetivo do teste de usabilidade é avaliar a facilidade de uso e a experiênc
 **Procedimento do Teste:**
 
 1. Apresentação inicial aos usuários, explicando o objetivo do teste e garantindo a confidencialidade dos dados.
-1. Apresentação do protótipo e instruções iniciais para as tarefas.
-1. Observação e registro dos usuários enquanto realizam as tarefas, incluindo a coleta de métricas.
-1. Administração do questionário de satisfação do usuário.
-1. Análise dos resultados e identificação de áreas de melhoria.
+2. Apresentação do protótipo e instruções iniciais para as tarefas.
+3. Observação e registro dos usuários enquanto realizam as tarefas, incluindo a coleta de métricas.
+4. Administração do questionário de satisfação do usuário.
+5. Análise dos resultados e identificação de áreas de melhoria.
 
 **Ações Pós-Teste:**
 
