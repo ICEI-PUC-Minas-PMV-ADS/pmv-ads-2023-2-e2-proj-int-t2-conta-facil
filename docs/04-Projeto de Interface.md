@@ -17,10 +17,32 @@ Este diagrama de fluxo foi desenvolvido na plataforma Lucidchart.
 
 
 ## Wireframes
-
-![Exemplo de Wireframe](img/wireframe-example.png)
-
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+
+01. Tela Incial
+   
+![Tela Inicial](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/5bbd1326-99e4-41d5-bad7-f5717a4f808d)
+
+
+
+02. Tela Login
+
+![Tela Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/81a3aa29-5b03-4761-8605-797e32dfec6a)
+
+
+
+03. Tela Cadastro
+
+![Tela Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/78dd133a-cdf5-429e-9c74-e2c9569c0075)
+
+
+
+04. Tela Home
+
+![Tela Home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/2646cd9d-fe5e-49a2-9b9e-dff1b7dfe204)
+
+
+
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
