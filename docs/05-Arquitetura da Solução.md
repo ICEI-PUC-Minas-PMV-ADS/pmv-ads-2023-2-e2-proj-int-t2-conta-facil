@@ -18,12 +18,13 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 ![Modelo ER (Projeto Conceitual)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/c54d76f7-3044-49be-9e1d-b43829a4ef7a)
 Fonte: https://app.diagrams.net/#G1T5PTBLnJBJq_6JFxaUazarlcm-RAKkkV
+
 ## Projeto da Base de Dados
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
- 
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
 
+![Tabela representação das entidades e relacionamentos (Projeto Lógico)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/103065594/e3e3bafb-6ca8-411d-be7a-10abc2038b2d)
+ 
 ## Tecnologias Utilizadas
 
 Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
