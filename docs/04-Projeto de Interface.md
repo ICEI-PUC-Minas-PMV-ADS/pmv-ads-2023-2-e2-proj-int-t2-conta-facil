@@ -16,11 +16,6 @@ Este diagrama de fluxo foi desenvolvido na plataforma Lucidchart.
 ![Conta fácil](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/129685114/b1de83cb-2276-406d-bfc0-bb15e50caf43)
 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
-
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
-
 ## Wireframes
 
 ![Exemplo de Wireframe](img/wireframe-example.png)
