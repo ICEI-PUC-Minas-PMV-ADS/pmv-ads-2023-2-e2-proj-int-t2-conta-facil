@@ -24,6 +24,7 @@ Fonte: https://app.diagrams.net/#G1T5PTBLnJBJq_6JFxaUazarlcm-RAKkkV
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
 
 ![Tabela representação das entidades e relacionamentos (Projeto Lógico)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/103065594/e3e3bafb-6ca8-411d-be7a-10abc2038b2d)
+
 Fonte: https://lucid.app/lucidchart/7b8b7b80-1da6-44bf-8d89-920432c4cd80/edit?invitationId=inv_cbe24fa3-5f60-48d0-a1bd-35121ec2b17e&page=0_0#
  
 ## Tecnologias Utilizadas
