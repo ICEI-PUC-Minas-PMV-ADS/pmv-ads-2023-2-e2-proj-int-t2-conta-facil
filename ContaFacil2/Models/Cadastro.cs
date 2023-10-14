@@ -6,12 +6,13 @@ namespace ContaFacil2.Models
     [Table("Cadastros")]
     public class Cadastro
     {
-                
-            [Key]
+
+            
             public int IdUsuario { get; set; }
             [Required(ErrorMessage = "Obrigatorio")]
             public string Nome { get; set; }
             [Required(ErrorMessage = "Obrigatorio")]
+            [Key]
             public string Email { get; set; }
             [Required(ErrorMessage = "Obrigatorio")]
             public string Logadouro { get; set; }

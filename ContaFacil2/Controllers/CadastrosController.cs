@@ -37,7 +37,9 @@ namespace ContaFacil2.Controllers
         [HttpPost]
         public async Task<IActionResult> Login (Cadastro cadastro)
         {
-            var dados = await _context.Cadastros.FindAsync(cadastro.IdUsuario);
+            
+            var dados = await _context.Cadastros.FindAsync(cadastro.Email);
+            
             if(dados == null)
             {
                 ViewBag.Message = "Usuário ou senha errados";
@@ -48,8 +50,9 @@ namespace ContaFacil2.Controllers
             {
                 var claims = new List<Claim>
                 {
-                    new Claim(ClaimTypes.Name, cadastro.Nome),
-                    new Claim(ClaimTypes.NameIdentifier, dados.IdUsuario.ToString()),
+                    new Claim(ClaimTypes.Name, dados.Nome),
+                    new Claim(ClaimTypes.Email, dados.Email.ToString()),
+                    //new Claim(ClaimTypes.NameIdentifier, dados.Email.ToString()),
                     new Claim(ClaimTypes.Role, dados.Perfil.ToString())
                 };
 
