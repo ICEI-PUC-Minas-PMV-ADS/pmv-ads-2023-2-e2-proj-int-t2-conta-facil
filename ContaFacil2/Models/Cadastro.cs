@@ -6,13 +6,12 @@ namespace ContaFacil2.Models
     [Table("Cadastros")]
     public class Cadastro
     {
-
-            
-            public int IdUsuario { get; set; }
-            [Required(ErrorMessage = "Obrigatorio")]
+                   
             public string Nome { get; set; }
             [Required(ErrorMessage = "Obrigatorio")]
+                    
             [Key]
+            [EmailAddress]
             public string Email { get; set; }
             [Required(ErrorMessage = "Obrigatorio")]
             public string Logadouro { get; set; }
@@ -34,7 +33,7 @@ namespace ContaFacil2.Models
 
     public enum Perfil
     {
-        Admin,
-        User
+        User,
+        Admin
     }
 }

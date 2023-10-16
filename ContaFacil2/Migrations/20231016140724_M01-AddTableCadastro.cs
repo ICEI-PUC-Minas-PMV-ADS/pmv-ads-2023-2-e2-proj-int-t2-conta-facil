@@ -12,10 +12,8 @@ namespace ContaFacil2.Migrations
                 name: "Cadastros",
                 columns: table => new
                 {
-                    IdUsuario = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Logadouro = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Cidade = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Uf = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -27,7 +25,7 @@ namespace ContaFacil2.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Cadastros", x => x.IdUsuario);
+                    table.PrimaryKey("PK_Cadastros", x => x.Email);
                 });
         }
 

@@ -6,8 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ContaFacil2.Models;
-using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
 
 namespace ContaFacil2.Controllers
 {
@@ -27,7 +27,7 @@ namespace ContaFacil2.Controllers
         }
 
 
-        //criando login 
+        //SISTEMA DE LOGIN
 
         public IActionResult Login()
         {
@@ -35,12 +35,12 @@ namespace ContaFacil2.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login (Cadastro cadastro)
+        public async Task<IActionResult> Login(Cadastro cadastro)
         {
-            
             var dados = await _context.Cadastros.FindAsync(cadastro.Email);
-            
-            if(dados == null)
+
+
+            if (dados == null)
             {
                 ViewBag.Message = "Usuário ou senha errados";
                 return View();
@@ -49,12 +49,11 @@ namespace ContaFacil2.Controllers
             if (senhaOk)
             {
                 var claims = new List<Claim>
-                {
-                    new Claim(ClaimTypes.Name, dados.Nome),
-                    new Claim(ClaimTypes.Email, dados.Email.ToString()),
-                    //new Claim(ClaimTypes.NameIdentifier, dados.Email.ToString()),
-                    new Claim(ClaimTypes.Role, dados.Perfil.ToString())
-                };
+                    {
+                            new Claim(ClaimTypes.Name, dados.Nome),
+                           new Claim(ClaimTypes.Email, dados.Email.ToString()),
+                           new Claim(ClaimTypes.Role, dados.Perfil.ToString())
+                        };
 
                 var usuarioIdentify = new ClaimsIdentity(claims, "Login");
                 ClaimsPrincipal principal = new ClaimsPrincipal(usuarioIdentify);
@@ -79,7 +78,8 @@ namespace ContaFacil2.Controllers
 
             return View();
         }
-        
+
+
         //criando o logout
 
         public async Task<IActionResult> Logout()
@@ -92,9 +92,8 @@ namespace ContaFacil2.Controllers
 
 
 
-
         // GET: Cadastros/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.Cadastros == null)
             {
@@ -102,7 +101,7 @@ namespace ContaFacil2.Controllers
             }
 
             var cadastro = await _context.Cadastros
-                .FirstOrDefaultAsync(m => m.IdUsuario == id);
+                .FirstOrDefaultAsync(m => m.Email == id);
             if (cadastro == null)
             {
                 return NotFound();
@@ -122,7 +121,7 @@ namespace ContaFacil2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdUsuario,Nome,Email,Logadouro,Cidade,Uf,CEP,Telefone,Cpf,Senha,Perfil")] Cadastro cadastro)
+        public async Task<IActionResult> Create([Bind("Nome,Email,Logadouro,Cidade,Uf,CEP,Telefone,Cpf,Senha,Perfil")] Cadastro cadastro)
         {
             if (ModelState.IsValid)
             {
@@ -135,7 +134,7 @@ namespace ContaFacil2.Controllers
         }
 
         // GET: Cadastros/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(string id)
         {
             if (id == null || _context.Cadastros == null)
             {
@@ -155,9 +154,9 @@ namespace ContaFacil2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdUsuario,Nome,Email,Logadouro,Cidade,Uf,CEP,Telefone,Cpf,Senha,Perfil")] Cadastro cadastro)
+        public async Task<IActionResult> Edit(string id, [Bind("Nome,Email,Logadouro,Cidade,Uf,CEP,Telefone,Cpf,Senha,Perfil")] Cadastro cadastro)
         {
-            if (id != cadastro.IdUsuario)
+            if (id != cadastro.Email)
             {
                 return NotFound();
             }
@@ -172,7 +171,7 @@ namespace ContaFacil2.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CadastroExists(cadastro.IdUsuario))
+                    if (!CadastroExists(cadastro.Email))
                     {
                         return NotFound();
                     }
@@ -187,7 +186,7 @@ namespace ContaFacil2.Controllers
         }
 
         // GET: Cadastros/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(string id)
         {
             if (id == null || _context.Cadastros == null)
             {
@@ -195,7 +194,7 @@ namespace ContaFacil2.Controllers
             }
 
             var cadastro = await _context.Cadastros
-                .FirstOrDefaultAsync(m => m.IdUsuario == id);
+                .FirstOrDefaultAsync(m => m.Email == id);
             if (cadastro == null)
             {
                 return NotFound();
@@ -207,7 +206,7 @@ namespace ContaFacil2.Controllers
         // POST: Cadastros/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(string id)
         {
             if (_context.Cadastros == null)
             {
@@ -223,9 +222,9 @@ namespace ContaFacil2.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool CadastroExists(int id)
+        private bool CadastroExists(string id)
         {
-          return _context.Cadastros.Any(e => e.IdUsuario == id);
+          return _context.Cadastros.Any(e => e.Email == id);
         }
     }
 }
