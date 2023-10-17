@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ContaFacil2.Models
 {
@@ -30,9 +31,10 @@ namespace ContaFacil2.Models
             public string Senha { get; set; }
             public Perfil Perfil { get; set; }
     }
-
+    
     public enum Perfil
     {
+        
         User,
         Admin
     }

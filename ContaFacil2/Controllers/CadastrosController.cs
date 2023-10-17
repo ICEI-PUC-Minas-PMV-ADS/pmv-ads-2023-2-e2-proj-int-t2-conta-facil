@@ -8,9 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using ContaFacil2.Models;
 using Microsoft.AspNetCore.Authentication;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ContaFacil2.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class CadastrosController : Controller
     {
         private readonly AppDbContex _context;
@@ -28,13 +30,14 @@ namespace ContaFacil2.Controllers
 
 
         //SISTEMA DE LOGIN
-
+        [AllowAnonymous]
         public IActionResult Login()
         {
             return View();
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(Cadastro cadastro)
         {
             var dados = await _context.Cadastros.FindAsync(cadastro.Email);
@@ -82,6 +85,7 @@ namespace ContaFacil2.Controllers
 
         //criando o logout
 
+        [AllowAnonymous]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
@@ -111,6 +115,7 @@ namespace ContaFacil2.Controllers
         }
 
         // GET: Cadastros/Create
+        [AllowAnonymous]
         public IActionResult Create()
         {
             return View();
@@ -121,6 +126,7 @@ namespace ContaFacil2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public async Task<IActionResult> Create([Bind("Nome,Email,Logadouro,Cidade,Uf,CEP,Telefone,Cpf,Senha,Perfil")] Cadastro cadastro)
         {
             if (ModelState.IsValid)
@@ -128,7 +134,8 @@ namespace ContaFacil2.Controllers
                 cadastro.Senha = BCrypt.Net.BCrypt.HashPassword(cadastro.Senha);
                 _context.Add(cadastro);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Login", "Cadastros");
+                // return RedirectToAction(nameof("Login", "Cadastros"));
             }
             return View(cadastro);
         }
@@ -221,7 +228,7 @@ namespace ContaFacil2.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-
+        [AllowAnonymous]
         private bool CadastroExists(string id)
         {
           return _context.Cadastros.Any(e => e.Email == id);
