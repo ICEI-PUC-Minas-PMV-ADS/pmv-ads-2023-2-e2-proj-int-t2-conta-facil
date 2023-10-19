@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\ContaFacil2.props" />
-</Project>
