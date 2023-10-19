@@ -3,7 +3,7 @@
 
 Abaixo segue os casos de teste.
 
-|**Caso de Teste**|**CT- Login – Realizar Login no site**|
+|**Caso de Teste**|**CT- Login – Realizar Login no site e realizar cadastro**|
 | :-: | :- |
 |**Requisitos Associados**|<p>**RF-01 -** O site deverá ter um sistema Login, para que o usuário acesse o painel do usuário.</p><p></p><p>**RF-02 -** O sistema deverá ter uma tela de cadastro de usuários.</p>|
 |**Objetivo do Teste**|Verificar se após digitar o login e senha, o usuário será redirecionado para Home, verificar se o cadastro será criado com sucesso.|
