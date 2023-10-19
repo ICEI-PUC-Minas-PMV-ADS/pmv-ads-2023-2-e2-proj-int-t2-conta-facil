@@ -19,3 +19,7 @@
 
 6º - Painel de usuários cadastrados
 ![Painel de usuários cadastrados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/0305204d-26ae-4263-8c97-31eb89ef72f8)
+
+## Conclusão
+
+Identificamos que será necessário adicionar uma mensagem de erro quando o usário digitar o e-mail ou senha errado.
