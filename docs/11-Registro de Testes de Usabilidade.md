@@ -1,8 +1,15 @@
-# Registro de Testes de Usabilidade
+# Registro de Testes de Usabilidade 
 
-Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas. O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa.
+Para a etapa 3, foi desenvolvido o sistema de login e cadastro. Nesse cenário, realizamos o teste de usabilidade só dessas funções. Não realizamos o teste de satisffação do usuário, pois o sistema tem poucas funcionalidades implementadas.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
+## 1º teste
 
-> **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+![Formulário 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/73587c5c-2255-4efa-bd43-cd990199a9a9)
+
+## 2º teste
+
+![formulário 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/1b5aa2ae-659d-4fa5-95f7-6863d0ba38c4)
+
+## 3º teste
+
+![formulário 3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/02c4940c-d520-4d3c-b3f7-f9083ba748ef)
