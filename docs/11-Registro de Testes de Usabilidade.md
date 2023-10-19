@@ -17,4 +17,4 @@ Para a etapa 3, foi desenvolvido o sistema de login e cadastro. Nesse cenário, 
 
 # Conclusão
 
-Evidenciamos que é necessário melhorar o front end do projeto, além adequar os campos de CEP, telefone e 
+Evidenciamos que é necessário melhorar o front end do projeto, além adequar os campos de CEP, telefone e CPF. Temos que adicionar uma opção de recuperar senha na tela de Login.
