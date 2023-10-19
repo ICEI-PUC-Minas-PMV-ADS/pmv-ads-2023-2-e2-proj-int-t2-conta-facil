@@ -13,3 +13,8 @@ Para a etapa 3, foi desenvolvido o sistema de login e cadastro. Nesse cenário, 
 ## 3º teste
 
 ![formulário 3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/02c4940c-d520-4d3c-b3f7-f9083ba748ef)
+
+
+# Conclusão
+
+Evidenciamos que é necessário melhorar o front end do projeto, além adequar os campos de CEP, telefone e 
