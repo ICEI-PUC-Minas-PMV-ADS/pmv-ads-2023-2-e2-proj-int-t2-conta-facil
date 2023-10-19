@@ -6,7 +6,7 @@ Abaixo segue os casos de teste.
 |**Caso de Teste**|**CT- Login – Realizar Login no site**|
 | :-: | :- |
 |**Requisitos Associados**|<p>**RF-01 -** O site deverá ter um sistema Login, para que o usuário acesse o painel do usuário.</p><p></p><p>**RF-02 -** O sistema deverá ter uma tela de cadastro de usuários.</p>|
-|**Objetivo do Teste**|Verificar se após digitar o login e senha, o usuário será redirecionado para Home.|
+|**Objetivo do Teste**|Verificar se após digitar o login e senha, o usuário será redirecionado para Home, verificar se o cadastro será criado com sucesso.|
 |**Passos**|<p>1) Fazer o download da pasta contafacil2 e o arquivo ContaFacil2.sln [Git Hub.]([https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/blob/main/docs/08-Plano%20de%20Testes%20de%20Software.md](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/tree/main/src))</p><p>2) Abrir o Arquivo ContaFacil2.sln utilizando o visual Studio</p><p>3) Visualizar a página Home\.</p><p>4) Clicar em Login</p><p>5) Clique em Cadastro e depois realize o seu cadastro.</p><p>6) Após realizar o cadastro, você será redirecionado para tela de Login.</p><p>7) Digite o Email e senha e clique em Acessar.</p>|
 |**Critérios de Êxito**|<p>- Você deverá ser redirecionado a pagina Home e irá aparecer as suas credenciais.</p><p>- Se for digitado um login e senha invalido o sistema não irá realizar login.</p><p>- Se for digitado um e-mail invalido, irá aparecer uma mensagem de e-mail invalido</p>|
 
