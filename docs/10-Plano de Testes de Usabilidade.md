@@ -67,7 +67,9 @@ O objetivo do teste de usabilidade é avaliar a facilidade de uso e a experiênc
 ## **Fomulários**
 
 Os formulários abaixo, deverão ser preenchidos para registrar os testes de Usabalidade.
-![Fomulário coleta dados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/f804aeeb-e11a-4046-a579-bf66dee17bd9)
+![formulario 1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/bb5223dc-9059-4208-95af-c2af9df59622)
+![formulario 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/f7698046-640a-47d6-a713-f080bc014b5a)
+![formulario 3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/de1855f2-d535-4039-8f7a-eb0d62f9739d)
 
 ![satisfação usuário](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/7f49f8e3-0ed6-4cbb-9bab-fe524ea72a79)
 
