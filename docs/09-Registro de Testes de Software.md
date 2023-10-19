@@ -22,4 +22,4 @@
 
 ## Conclusão
 
-Identificamos que será necessário adicionar uma mensagem de erro quando o usário digitar o e-mail ou senha errado.
+O teste foi realizado com sucesso. Não encontramos nenhum erro ao realizar esse teste. 
