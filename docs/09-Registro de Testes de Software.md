@@ -1,3 +1,10 @@
 # Registro de Testes de Software
 
-CT- Login – Realizar Login no site e realizar cadastro
+## CT- Login – Realizar Login no site e realizar cadastro
+
+1º - Acessando Tela Home
+
+![Home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/36486198/081df895-ff02-4eb0-81ce-4602b2cbc56f)
+
+
+
