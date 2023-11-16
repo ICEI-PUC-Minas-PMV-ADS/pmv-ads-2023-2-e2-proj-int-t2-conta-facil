@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 using reserva_emergencia.Models;
 using System.Security.Cryptography.X509Certificates;
@@ -35,6 +36,7 @@ namespace reserva_emergencia.Controllers
                 return RedirectToAction("Index"); // retornar para a tela de index 
             }
 
+
             return View(reserva);
         }
 
@@ -67,21 +69,37 @@ namespace reserva_emergencia.Controllers
             }
 
 
-            return View();          
+            return View();
         }
-        public async Task<IActionResult> Datail(int? id) // Detalhar os dados 
+        public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
+            if (id == null) 
                 return NotFound();
+            var dados = await _context.Reservas.FindAsync(id);
+
+            if(dados == null)
+                return NotFound();
+            return View(dados);
+            
+        }
+        [HttpPost, ActionName("Delete")] // Comando delete
+        public async Task<IActionResult> DeleteConfirmed(int? id)
+        {
+            if (id == null) 
+            return NotFound();
 
             var dados = await _context.Reservas.FindAsync(id);
 
             if (dados == null)
                 return NotFound();
 
-           
-            return View(dados);
+            _context.Reservas.Remove(dados); // remove os dados
+            await _context.SaveChangesAsync(); // salva as alterações no banco de dados 
+            return RedirectToAction("Index"); // retorna pro index
+
         }
+       
+      
 
     }
 }
