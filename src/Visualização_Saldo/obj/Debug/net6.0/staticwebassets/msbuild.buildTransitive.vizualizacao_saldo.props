@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\vizualizacao_saldo.props" />
-</Project>
