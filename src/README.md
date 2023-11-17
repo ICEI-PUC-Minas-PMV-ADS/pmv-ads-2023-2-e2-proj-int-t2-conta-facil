@@ -1,5 +1,2 @@
-# Instruções de utilização
 
-## Instalação do Site
-
-Fazer o download da pasta ContaFacil2 e do arquivo Contafacil2.sln. Executar o arquivo ContaFacil2.sln utilizando o Visual Studio.
+Criação de um cadastro de despesas com exportação em Excel, com a utilização do ASP.NET MVC, com o banco de dados SQLServer

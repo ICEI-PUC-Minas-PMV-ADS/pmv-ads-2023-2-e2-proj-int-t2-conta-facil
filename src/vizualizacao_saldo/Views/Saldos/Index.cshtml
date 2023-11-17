@@ -1,0 +1,50 @@
+﻿@model IEnumerable<vizualizacao_saldo.Saldo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Cadastro de Despesas</h1>
+
+<div>
+    <a asp-action="Create" class="btn btn-success">Adicionar novo cadastro</a>
+    <a asp-action="Exportar" class="btn btn-success">Exportar</a>
+</div>
+   
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Resumo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo_Saldo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Resumo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo_Saldo)
+            </td>
+            <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Visualizar</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
