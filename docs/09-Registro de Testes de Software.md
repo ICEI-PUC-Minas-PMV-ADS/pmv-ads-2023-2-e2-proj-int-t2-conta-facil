@@ -24,7 +24,29 @@
 
 O teste foi realizado com sucesso. Não encontramos nenhum erro ao realizar esse teste. 
 
-## CT- Login – Inserir dados financeiros - Reserva de Emergência
+## CT– Inserir dados financeiros - Reserva de Emergência
 
-1º Tela Principal da Página Reserva de Emergência, onde é apresentado o histórico de reserva cadastrado
+1º Tela Principal da Página Reserva de Emergência.
 ![tela principal reserva de emergencia](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/71662852/a89c2a61-546e-45f5-b1d7-d0d2ca698928)
+
+2º Quando clica em "Calcular Reserva de Emergência" é só inserir os dados solicitados, e clicar em "Calcular Reserva" para retornar o valor a ser investido, e em "Salvar" para fazer o registro no banco de dados.
+![calcular reserva 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/71662852/86ea0aa3-8344-4483-8b75-bffca6f688a3)
+
+3º Depois de salvar o registro, será redirecionado para tela principal da Reserva de Emergência exibindo o registro salvo.
+![historico reserva](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/71662852/94d29bd4-56db-4519-9e9d-d6f18f2b8692)
+
+4º Ao clicar em "Editar", é possível fazer alterações no registro e salvar as mesmas. 
+![editar reserva](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/71662852/58c4bae5-4782-4748-b573-eb142a212cc4)
+5º Ao clicar em "Apagar", é possível deletar o registro. 
+
+![apagar reserva](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/71662852/cb47762d-99dd-465f-a5b3-a551160673af)
+## Conclusão
+O teste houve algumas execuções com êxito e outras com falhas. 
+- Quando clica no botão de "Calcular Reserva de Emergência" a página é redirecionada para a tela de Calculo com sucesso.
+- É possível inserir as informações nos campos sem nenhum problema.
+- Ao Clicar em "Salvar", os registros são enviados para o banco de dados com sucesso, e é exibido o registro salvo na tela principal de Reserva de Emergência.
+- As opções "Editar" e "Apagar", funcionam sem nenhuma falha.
+  ### Observações:
+- A opção "Calcular Reserva" Apresentou falhas, ao clicar na opção não é realizado o calculo. O sistema permite apenas que o usuário informe os dados e registre no banco de dados.
+
+  
