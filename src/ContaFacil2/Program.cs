@@ -11,7 +11,7 @@ builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 //NAO ESQUECER !
 
-builder.Services.AddDbContext<AppDbContex>(options =>
+builder.Services.AddDbContext<AppDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 

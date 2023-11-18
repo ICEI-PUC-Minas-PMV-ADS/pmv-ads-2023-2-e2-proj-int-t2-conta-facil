@@ -26,6 +26,12 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Sobre</a>
                         </li>
 
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Saldos" asp-action="Index">Cadastro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Reservas" asp-action="Index">Reserva de Emergência</a>
+                        </li>
                         @if(User.IsInRole("Admin"))
                         {
                             <li class="nav-item">

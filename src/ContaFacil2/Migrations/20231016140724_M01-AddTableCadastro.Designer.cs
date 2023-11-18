@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ContaFacil2.Migrations
 {
-    [DbContext(typeof(AppDbContex))]
+    [DbContext(typeof(AppDbContext))]
     [Migration("20231016140724_M01-AddTableCadastro")]
     partial class M01AddTableCadastro
     {

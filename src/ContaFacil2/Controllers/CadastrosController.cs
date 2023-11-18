@@ -15,9 +15,9 @@ namespace ContaFacil2.Controllers
     [Authorize(Roles ="Admin")]
     public class CadastrosController : Controller
     {
-        private readonly AppDbContex _context;
+        private readonly AppDbContext _context;
 
-        public CadastrosController(AppDbContex context)
+        public CadastrosController(AppDbContext context)
         {
             _context = context;
         }
