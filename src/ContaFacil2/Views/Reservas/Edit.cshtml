@@ -1,0 +1,48 @@
+﻿@model ContaFacil2.Models.Reserva
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Editar Reserva de Emergência</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="salario" class="control-label"></label>
+                <input asp-for="salario" class="form-control" />
+                <span asp-validation-for="salario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="totalEssenciais" class="control-label"></label>
+                <input asp-for="totalEssenciais" class="form-control" />
+                <span asp-validation-for="totalEssenciais" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="totalNaoEssenciais" class="control-label"></label>
+                <input asp-for="totalNaoEssenciais" class="form-control" />
+                <span asp-validation-for="totalNaoEssenciais" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="investimento" class="control-label"></label>
+                <input asp-for="investimento" class="form-control" />
+                <span asp-validation-for="investimento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <a class="btn btn-info" asp-action="Index">Voltar</a>
+                <input type="submit" value="Salvar" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

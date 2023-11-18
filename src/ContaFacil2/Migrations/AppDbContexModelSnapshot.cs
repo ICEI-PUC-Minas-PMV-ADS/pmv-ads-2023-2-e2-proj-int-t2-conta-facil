@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ContaFacil2.Migrations
 {
-    [DbContext(typeof(AppDbContex))]
+    [DbContext(typeof(AppDbContext))]
     partial class AppDbContexModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -63,6 +63,54 @@ namespace ContaFacil2.Migrations
                     b.HasKey("Email");
 
                     b.ToTable("Cadastros");
+                });
+
+            modelBuilder.Entity("ContaFacil2.Models.Reserva", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<double>("investimento")
+                        .HasColumnType("float");
+
+                    b.Property<double>("salario")
+                        .HasColumnType("float");
+
+                    b.Property<double>("totalEssenciais")
+                        .HasColumnType("float");
+
+                    b.Property<double>("totalNaoEssenciais")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Reservas");
+                });
+
+            modelBuilder.Entity("ContaFacil2.Saldo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Resumo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Tipo_Saldo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Valor")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Saldos");
                 });
 #pragma warning restore 612, 618
         }
