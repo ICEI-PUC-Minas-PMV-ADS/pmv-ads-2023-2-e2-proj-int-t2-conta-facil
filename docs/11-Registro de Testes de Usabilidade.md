@@ -19,3 +19,22 @@ Para a etapa 3, foi desenvolvido o sistema de login e cadastro. Nesse cenário, 
 
 Evidenciamos que é necessário melhorar o front end do projeto, além adequar os campos de CEP, telefone 
 e CPF. Temos que adicionar uma opção de recuperar senha na tela de Login.
+
+# Teste de Usabilidade Reserva de Emergência
+
+## 1º teste
+
+![Reserva Bárbara](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/71662852/281cdbd1-4425-4419-82ff-7cdb98bf4d2d)
+
+## 2º teste
+
+![Reserva Diogo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/71662852/fc9e3dca-dc8b-4c5c-9ddc-6b48a569e38c)
+
+## 3º teste
+
+![Reserva Anthony](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/71662852/1321f29c-e16b-40e5-8977-de56af068300)
+
+# Conclusão
+
+Evidenciamos que é necessário buscar soluções para que o botão "Calcular Reserva" retorne o resultado. O sistema possui interface fácil e a parte de salvar os registros funciona perfeitamente. 
+
