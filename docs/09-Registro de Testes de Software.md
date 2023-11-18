@@ -23,3 +23,8 @@
 ## Conclusão
 
 O teste foi realizado com sucesso. Não encontramos nenhum erro ao realizar esse teste. 
+
+## CT- Login – Inserir dados financeiros - Reserva de Emergência
+
+1º Tela Principal da Página Reserva de Emergência, onde é apresentado o histórico de reserva cadastrado
+![tela principal reserva de emergencia](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/71662852/a89c2a61-546e-45f5-b1d7-d0d2ca698928)
