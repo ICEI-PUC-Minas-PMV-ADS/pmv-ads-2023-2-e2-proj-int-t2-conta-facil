@@ -49,6 +49,37 @@ O teste foi realizado com sucesso. Não encontramos nenhum erro ao realizar esse
   
 Uma falha foi identificada ao realizar o teste:
 - O botão calcular reserva não retorna o resultado do cálculo.
-- É possível inserir os dados nos campos e salvar, porém o sistema apresenta falha ao calcular o valor da reserva. 
+- É possível inserir os dados nos campos e salvar, porém o sistema apresenta falha ao calcular o valor da reserva.
+
+## CT- Cadastro de Despesas – Realizar o cadastro de despesas e Visualização de saldo
+
+1º - Tela home
+![Tela Home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/7325312f-a388-4f46-bcd7-59019796571b)
+
+
+2º - Acessando Tela Cadastro
+![Tela Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/3ea1b664-27b1-4e6e-9964-bfe8ed60b68b)
+
+3º - Adicionando novo Cadastro
+![Adicionar novo Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/3dd8f466-b3bf-42a7-ad24-d35b08fb4ab4)
+
+
+4º - Cadastro Realizado
+![Cadastro Realizado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/1fa9c2a1-1dc7-4800-9048-0c59d986dbeb)
+
+
+5º - Tela de Editar
+![Tela de Edição](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/af83e151-8822-4413-ae57-99c5263c5da5)
+
+
+6º - Tela de Visualizar
+![Tela de Visualizar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/b6ea8669-a21f-4593-a73f-c4151825df71)
+
+## Conclusão
+
+O teste foi realizado com sucesso. Não encontramos nenhum erro ao realizar esse teste. 
+
+7º - Tela de Apagar
+![Tela de Apagar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/2bd2a49f-b5d0-445d-a897-0586a955c522)
 
 
