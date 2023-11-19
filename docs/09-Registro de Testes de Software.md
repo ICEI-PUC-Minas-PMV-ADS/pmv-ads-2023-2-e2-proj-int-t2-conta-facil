@@ -23,3 +23,86 @@
 ## Conclusão
 
 O teste foi realizado com sucesso. Não encontramos nenhum erro ao realizar esse teste. 
+
+## CT- Inserir dados financeiros – Reserva de Emergência
+
+1º - Tela Principal Reserva de Emergência
+![tela principal reserva de emergencia](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/71662852/a89c2a61-546e-45f5-b1d7-d0d2ca698928)
+
+2º - Após clicar em "Calcular Reserva de Emergência", vai pra página para inserir os dados solicitados e cadastrar a reserva 
+![calcular reserva 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/71662852/86ea0aa3-8344-4483-8b75-bffca6f688a3)
+
+3º - Tela Principal exibindo a  Reserva que foi cadastrada
+![historico reserva](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/71662852/94d29bd4-56db-4519-9e9d-d6f18f2b8692)
+
+4º - Editando Reserva 
+![editar reserva](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/71662852/58c4bae5-4782-4748-b573-eb142a212cc4)
+
+5º - Apagando Reserva 
+![apagar reserva](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/71662852/cb47762d-99dd-465f-a5b3-a551160673af)
+
+## Conclusão
+
+- O botão de "Calcular Reserva de Emergência" redireciona para a página de cadastro da reserva com sucesso.
+- Os botões de "Editar" e "Apagar" funcionam normalmente e consegue efetuar as duas ações.
+- Ao clicar em "Salvar", o registro é enviado ao banco de dados e a página retorna para a tela principal exibindo o registro salvo.
+  
+Uma falha foi identificada ao realizar o teste:
+- O botão calcular reserva não retorna o resultado do cálculo.
+- É possível inserir os dados nos campos e salvar, porém o sistema apresenta falha ao calcular o valor da reserva.
+
+## CT- Cadastro de Despesas – Realizar o cadastro de despesas e Visualização de saldo
+
+1º - Tela home
+![Tela Home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/7325312f-a388-4f46-bcd7-59019796571b)
+
+
+2º - Acessando Tela Cadastro
+![Tela Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/3ea1b664-27b1-4e6e-9964-bfe8ed60b68b)
+
+
+3º - Adicionando novo Cadastro
+![Adicionar novo Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/3dd8f466-b3bf-42a7-ad24-d35b08fb4ab4)
+
+
+4º - Cadastro Realizado
+![Cadastro Realizado](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/1fa9c2a1-1dc7-4800-9048-0c59d986dbeb)
+
+
+5º - Tela de Editar
+![Tela de Edição](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/af83e151-8822-4413-ae57-99c5263c5da5)
+
+
+6º - Tela de Visualizar
+![Tela de Visualizar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/b6ea8669-a21f-4593-a73f-c4151825df71)
+
+
+7º - Tela de Apagar
+![Tela de Apagar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/2bd2a49f-b5d0-445d-a897-0586a955c522)
+
+## Conclusão
+
+O teste foi realizado com sucesso. Não encontramos nenhum erro ao realizar esse teste. 
+
+
+## CT- Relatório de Despesas – Exportar o relatório de despesas.
+
+1º - Tela home
+![Tela Home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/7325312f-a388-4f46-bcd7-59019796571b)
+
+
+2º - Acessando Tela Cadastro
+![Tela Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/3ea1b664-27b1-4e6e-9964-bfe8ed60b68b)
+
+
+3º - Clicar em Exportar
+![Exportação Realizada](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/9bbb49d6-db57-45b6-a727-fdb4dbfc0878)
+
+4º - Exportação Realizada
+![Exportação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/d9892f51-0f0f-4bb5-9ef2-93fa1e2b40ac)
+
+
+
+## Conclusão
+
+O teste foi realizado com sucesso. Não encontramos nenhum erro ao realizar esse teste. 
