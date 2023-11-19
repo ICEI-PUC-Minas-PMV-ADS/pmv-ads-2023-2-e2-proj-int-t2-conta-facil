@@ -60,6 +60,7 @@ Uma falha foi identificada ao realizar o teste:
 2º - Acessando Tela Cadastro
 ![Tela Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/3ea1b664-27b1-4e6e-9964-bfe8ed60b68b)
 
+
 3º - Adicionando novo Cadastro
 ![Adicionar novo Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/3dd8f466-b3bf-42a7-ad24-d35b08fb4ab4)
 
@@ -78,6 +79,29 @@ Uma falha foi identificada ao realizar o teste:
 
 7º - Tela de Apagar
 ![Tela de Apagar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/2bd2a49f-b5d0-445d-a897-0586a955c522)
+
+## Conclusão
+
+O teste foi realizado com sucesso. Não encontramos nenhum erro ao realizar esse teste. 
+
+
+## CT- Relatório de Despesas – Exportar o relatório de despesas.
+
+1º - Tela home
+![Tela Home](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/7325312f-a388-4f46-bcd7-59019796571b)
+
+
+2º - Acessando Tela Cadastro
+![Tela Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/3ea1b664-27b1-4e6e-9964-bfe8ed60b68b)
+
+
+3º - Clicar em Exportar
+![Exportação Realizada](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/9bbb49d6-db57-45b6-a727-fdb4dbfc0878)
+
+4º - Exportação Realizada
+![Exportação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/d9892f51-0f0f-4bb5-9ef2-93fa1e2b40ac)
+
+
 
 ## Conclusão
 
