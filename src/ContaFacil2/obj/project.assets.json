@@ -12170,24 +12170,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\natha\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\DIOGO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\natha\\Desktop\\Csharp\\pmv-ads-2023-2-e2-proj-int-t2-conta-facil\\src\\ContaFacil2\\ContaFacil2.csproj",
+      "projectUniqueName": "C:\\Users\\DIOGO\\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\\Área de Trabalho\\teste\\pmv-ads-2023-2-e2-proj-int-t2-conta-facil\\src\\ContaFacil2\\ContaFacil2.csproj",
       "projectName": "ContaFacil2",
-      "projectPath": "C:\\Users\\natha\\Desktop\\Csharp\\pmv-ads-2023-2-e2-proj-int-t2-conta-facil\\src\\ContaFacil2\\ContaFacil2.csproj",
-      "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\natha\\Desktop\\Csharp\\pmv-ads-2023-2-e2-proj-int-t2-conta-facil\\src\\ContaFacil2\\obj\\",
+      "projectPath": "C:\\Users\\DIOGO\\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\\Área de Trabalho\\teste\\pmv-ads-2023-2-e2-proj-int-t2-conta-facil\\src\\ContaFacil2\\ContaFacil2.csproj",
+      "packagesPath": "C:\\Users\\DIOGO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DIOGO\\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\\Área de Trabalho\\teste\\pmv-ads-2023-2-e2-proj-int-t2-conta-facil\\src\\ContaFacil2\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\DIOGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12195,7 +12190,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12272,7 +12266,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
