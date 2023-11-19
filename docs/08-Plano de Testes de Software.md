@@ -25,3 +25,12 @@ Abaixo segue os casos de teste.
 |**Objetivo do Teste**|Verificar se o sistema está cadastrando despesas e mostrando o saldo corretamente.|
 |**Passos**|<p>1) Efetue o login no sistema.</p><p>2) Clicar em cadastro.</p><p>3) Adicionar novo cadastro.</p><p>4) Preencher os campos Valor, Resumo e Tipo de Saldo.</p><p>5) Clicar em adicionar</p><p>6) Após realizar o cadastro de despesa, você será redirecionado para tela de seus cadastros.</p>|
 |**Critérios de Êxito**|<p>- Você deverá ser redirecionado a pagina de Cadastro e irá aparecer suas despesas adicionadas.</p><p>- Se um campo ficar em branco o sistema não irá realizar o cadastro</p><p>- Se um campo ficar em branco o sistema deverá mostrar a mensagem de que deve ser obrigátorio o preenchimento.</p>|
+
+
+
+|**Caso de Teste**|**CT- Relatório de Despesas – Exportar o relatório de despesas.**|
+| :-: | :- |
+|**Requisitos Associados**|<p>**RF-04-** O sistema deverá ter um relatório de despesas.</p><p></p>|
+|**Objetivo do Teste**|Verificar se o sistema está realizando a exportação do relatorio de despesas corretamente.|
+|**Passos**|<p>1) Efetue o login no sistema.</p><p>2) Clicar em cadastro.</p><p>3) Exportar.</p><p>4) Abrir o documento em excel na área de downloads.</p>|
+|**Critérios de Êxito**|<p>- Quando clicar em exportar deverá ser baixado um documento em exel, com todas as despesas cadastradas.</p>|
