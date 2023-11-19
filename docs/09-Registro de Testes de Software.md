@@ -75,11 +75,10 @@ Uma falha foi identificada ao realizar o teste:
 6º - Tela de Visualizar
 ![Tela de Visualizar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/b6ea8669-a21f-4593-a73f-c4151825df71)
 
-## Conclusão
-
-O teste foi realizado com sucesso. Não encontramos nenhum erro ao realizar esse teste. 
 
 7º - Tela de Apagar
 ![Tela de Apagar](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/assets/121464977/2bd2a49f-b5d0-445d-a897-0586a955c522)
 
+## Conclusão
 
+O teste foi realizado com sucesso. Não encontramos nenhum erro ao realizar esse teste. 
