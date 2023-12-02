@@ -7,49 +7,106 @@ html {
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
     margin-bottom: 60px;
-    background-image: url("https://images.unsplash.com/photo-1512386233331-f023884a92e8?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-image: url("https://images.pexels.com/photos/129492/pexels-photo-129492.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover; /* Faz com que a imagem cubra toda a div */
     background-position: center; /* Centraliza a imagem na div */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
 }
 
-.display-4 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    color: #ffffff;
-    font-size:90px;
-    font-family: 'Roboto', sans-serif;;
-}
-
-.container-fluid {
-    display: flex;
-    justify-content: space-between;
-    background-color: #D7DADF;
-}
 .navbar-brand {
-    color: greenyellow;
+    color: blue;
+    font-size: 30px;
 }
 
 .navbar {
-    padding: 0px;
+    padding: 15px;
+    font-size: 20px;
 }
 
 /* Cadastro */
-.table{
-    background-color:white;
+.table {
+    background-color: white;
 }
+
+/*Tela Home*/
+
+
+#container-a {
+    background-color: white;
+    max-width: 500px;
+    height: 450px;
+    padding: 30px;
+    border-radius: 20px; 
+}
+
+#container-b {
+    background-color: rgba(0,0,0,0.7);
+    padding: 50px;
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-left: 10px;
+    width: 350px;
+    height: 300px;
+    display: inline-flex;
+}
+
+#container-c {
+    background-color: rgba(0,0,0,0.7);
+    padding: 50px;
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-left: 10px;
+    width: 350px;
+    height: 300px;
+    display: inline-flex;
+}
+
+#container-d {
+    background-color: rgba(0,0,0,0.7);
+    padding: 50px;
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-left: 10px;
+    width: 350px;
+    height: 300px;
+    display: inline-flex;
+}
+
+form h1{
+    font-size: 60px;
+    
+}
+
+form h2 {
+    font-size: 30px;
+    color:white;
+}
+
+form h3 {
+    font-size: 30px;
+    color: white;
+}
+
+form h4 {
+    font-size: 30px;
+    color: white;
+}
+
+
+p {
+    margin: 100px;
+}
+
 

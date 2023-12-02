@@ -4,8 +4,10 @@
     "\\src",
     "\\src\\ContaFacil2",
     "\\src\\ContaFacil2\\Views",
-    "\\src\\ContaFacil2\\Views\\Shared"
+    "\\src\\ContaFacil2\\Views\\Shared",
+    "\\src\\ContaFacil2\\wwwroot",
+    "\\src\\ContaFacil2\\wwwroot\\css"
   ],
-  "SelectedNode": "\\src\\ContaFacil2\\Views\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\src\\ContaFacil2\\wwwroot\\css\\site.css",
   "PreviewInSolutionExplorer": false
 }

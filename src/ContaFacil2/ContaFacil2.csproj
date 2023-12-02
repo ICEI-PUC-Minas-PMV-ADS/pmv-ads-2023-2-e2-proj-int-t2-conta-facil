@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\theme\**" />
+    <Content Remove="Views\theme\**" />
+    <EmbeddedResource Remove="Views\theme\**" />
+    <None Remove="Views\theme\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Home\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="ClosedXML" Version="0.102.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
