@@ -50,7 +50,7 @@ O teste foi realizado com sucesso. Não encontramos nenhum erro ao realizar esse
 Uma falha foi identificada ao realizar o teste:
 - O botão calcular reserva não retorna o resultado do cálculo.
 - É possível inserir os dados nos campos e salvar, porém o sistema apresenta falha ao calcular o valor da reserva.
-
+- Eu e meus companheiros de equipe, ao tentar resolver o problema, entedemos que caso fizessemos as alterações necessárias afetaria outras funcionalidades da aplicação e que devido ao prazo da entrega, não efetuamos as mudanças.
 ## CT- Cadastro de Despesas – Realizar o cadastro de despesas e Visualização de saldo
 
 1º - Tela home
