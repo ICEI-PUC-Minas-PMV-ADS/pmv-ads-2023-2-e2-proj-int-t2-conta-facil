@@ -26,8 +26,9 @@ body {
 }
 
 .navbar-brand {
-    color: blue;
-    font-size: 30px;
+    
+    font-size: 38px;
+    font-family: 'DM Serif Display', serif;
 }
 
 .navbar {

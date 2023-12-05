@@ -1,11 +1,5 @@
 ﻿<!DOCTYPE html>
-<style>
-    .navbar-brand {
-        color: white;
-        font-family: 'DM Serif Display', serif;
-        font-size: 30px;
-    }
-</style>
+
 <html lang="en">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,13 +29,18 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Sobre</a>
                         </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Saldos" asp-action="Index">Cadastro</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Reservas" asp-action="Index">Reserva de Emergência</a>
-                        </li>
+                        @if (User.IsInRole("User"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Saldos" asp-action="Index">Saldos/Despesas</a>
+                            </li>
+                        }
+                        @if (User.IsInRole("User"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Reservas" asp-action="Index">Reserva de Emergência</a>
+                            </li>
+                        }
                         @if(User.IsInRole("Admin"))
                         {
                             <li class="nav-item">
@@ -67,6 +66,7 @@
                         }
 
                     </ul>
+                    
 
 
 

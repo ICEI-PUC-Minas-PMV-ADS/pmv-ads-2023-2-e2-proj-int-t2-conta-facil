@@ -4,12 +4,52 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Usuário Cadastrados</h1>
+<style>
+    h1 {
+        color: white;
+        font-family: 'DM Serif Display', serif;
+        font-size: 60px;
+    }
 
-<p>
+    hr {
+        color: aqua;
+    }
+
+    .row {
+        background-color: rgba(0,0,0,0.7);
+        width: 100%;
+        height: 400px;
+        padding: 20px;
+        display: inline-flex;
+        border-radius: 20px;
+    }
+
+    .table {
+        
+        border-radius: 8px;
+        font-size: 16px;
+    }
+    thead{
+        width: 10px;
+        height: 10px;
+        color:black;
+    }
+
+</style>
+
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Playfair+Display:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+<h1>Usuários Cadastrados</h1>
+<hr />
+
+    <div class="row">
+    <div>
     <a class="btn btn-success" asp-action="Create">Adicionar um usuário</a>
-</p>
+    </div>
 <table class="table">
+
     <thead>
         <tr>
             <th>
@@ -83,3 +123,5 @@
 }
     </tbody>
 </table>
+</div>
+</body>
