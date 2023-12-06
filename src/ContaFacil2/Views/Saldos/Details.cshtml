@@ -3,9 +3,36 @@
 @{
     ViewData["Title"] = "Details";
 }
+<style>
+    h1 {
+        color: white;
+        font-family: 'DM Serif Display', serif;
+        font-size: 60px;
+    }
+
+    .row {
+        background-color: rgba(0,0,0,0.7);
+        width: 100%;
+        height: 500px;
+        padding: 20px;
+        border-radius: 20px;
+        display: inline-flex;
+        color: white;
+        font-size: 25px;
+    }
+
+    hr {
+        color: aqua;
+    }
+
+    #botoes {
+        color: white;
+    }
+</style>
 
 <h1>Dados do Cadastro</h1>
 
+<body>
 <div>
     <hr />
     <dl class="row">
@@ -29,7 +56,8 @@
         </dd>
     </dl>
 </div>
-<div>
+<div id="botoes">
     <a asp-action="Index" class="btn btn-info">Voltar</a> |
     <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a>
 </div>
+</body>

@@ -38,7 +38,8 @@ body {
 
 /* Cadastro */
 .table {
-    background-color: white;
+    background-color: dimgrey;
+    color:white
 }
 
 /*Tela Home*/
