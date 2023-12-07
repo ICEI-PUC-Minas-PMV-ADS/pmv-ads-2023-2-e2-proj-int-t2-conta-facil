@@ -1,8 +1,6 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
-
-Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
+[Apresentação_Grupo1_Projeto_Conta_Fácil (1).pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e2-proj-int-t2-conta-facil/files/13602474/Apresentacao_Grupo1_Projeto_Conta_Facil.1.pdf)
 
 ## Título do Projeto
 
